@@ -44,7 +44,7 @@ In another terminal, bedore running the code, make sure either the ros or ros2 w
 ```
 ./coppeliaSim.sh
 ```
-After that, open the correct scene and modify the file until the Vrep.ttt file is created and saved.
+After that, open the correct scene and modify the file until the (Vrep).ttt file is created and saved.
 
 
 

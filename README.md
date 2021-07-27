@@ -30,8 +30,8 @@ With two nodes implemented in Python (.py) and the other two implemented in C++ 
 
 This package should contain two additional branches: **action** and **ros2**, which will be mentioned later. Other than that, a VREP scene which interacts with the simulation is also required.
 
-## How to run the node:
 
+## How to run the node:
 
 To run the code, open 2 terminals in advance. One is for running the code below and launch Gazebo simulation environment:
 

@@ -31,11 +31,11 @@ Inside the ros2 foxy workspace, build only the package and run:
  ```
 Inside the ros2 foxy workspace, build only the bridge and run:
 ```
--colcon build --packages-select ros1_bridge --cmake-force-configure
+ colcon build --packages-select ros1_bridge --cmake-force-configure
 ```
 To start the simulation, run:
 ```
-source bridge.sh
+ source bridge.sh
 ```
 
 

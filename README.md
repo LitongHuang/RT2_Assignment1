@@ -6,7 +6,9 @@ This README.md file is related to the first branch **action**, which it implemen
 
 
 ## Architecture of the system:
+The package contains the nodes and the simulation environment for controlling a mobile robot in the Gazebo simulation environment.
 
+The robot starts at the orign (0,0) without any orientation or velocity. After being requested by the user or pressing 1, it starts moving towards the first random generated position. The user can command the robot to stop at any time by pressing 0. However, it will stop after reaching the target. When the next 'start' command is called, the robot will move to the next random generated position.
 ### Node: 
 - PositionServer
 - GoToPoint
@@ -21,6 +23,7 @@ With two nodes implemented in Python (.py) and the other two implemented in C++ 
 - drive the robot toward a point in the environment
 
 ### The launch file will open:
+
 - The simulation environment in Gazebot
 
 - The node PositionServer, which implements a random position service with random values for x, y, and theta, where x and y should be limited between some min and max values.

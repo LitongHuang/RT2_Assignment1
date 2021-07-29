@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import rospy
 import time
 from rt2_ass1.srv import Command

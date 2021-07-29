@@ -182,7 +182,7 @@ def main():
     #I initialize the subscriber on odometry
     sub_odom = rospy.Subscriber('/odom', Odometry, clbk_odom)
     #I initialize the action server
-    act_s = actionlib.SimpleActionServer('/go_to_point', rt2_ass1.msg.PlanningAction, go_to_point, auto_start=False)
+    act_s = actionlib.SimpleActionServer('/go_to_point', rt2_ass1.msg.go_to_pointAction, go_to_point, auto_start=False)
     act_s.start()
     rospy.spin()
 

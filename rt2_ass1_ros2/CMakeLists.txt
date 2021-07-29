@@ -40,7 +40,7 @@ DESTINATION share/${PROJECT_NAME}
 add_library(state_machine SHARED src/state_machine.cpp)
 
 rclcpp_components_register_node(state_machine
-PLUGIN "rt2_assi1::StateMachine"
+PLUGIN "rt2_ass1::StateMachine"
 EXECUTABLE composition_usr)
 
 
@@ -49,7 +49,7 @@ ament_target_dependencies(state_machine rclcpp std_msgs example_interfaces rclcp
 add_library(position_server SHARED src/position_server.cpp)
 
 rclcpp_components_register_node(position_server
-PLUGIN "rt2_assi1::random"
+PLUGIN "rt2_ass1::random"
 EXECUTABLE pos_srv)
 
 ament_target_dependencies(position_server rclcpp std_msgs example_interfaces rclcpp_components)

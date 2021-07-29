@@ -11,12 +11,12 @@ def generate_launch_description():
             executable='component_container',
             composable_node_descriptions=[
                 ComposableNode(
-                    package='rt2_assignment1',
-                    plugin='rt2_assignment1::random',
+                    package='rt2_ass1',
+                    plugin='rt2_ass1::random',
                     name='rr'),
                 ComposableNode(
-                    package='rt2_assignment1',
-                    plugin='rt2_assignment1::StateMachine',
+                    package='rt2_ass1',
+                    plugin='rt2_ass1::StateMachine',
                     name='sm')
             ],
             output='screen',
